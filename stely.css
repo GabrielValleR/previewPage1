@@ -1,0 +1,88 @@
+body{
+    height: 97vh;
+    background-color: papayawhip;
+    background-image: linear-gradient(hsl(0, 80%, 86%), hsl(0, 74%, 74%)); 
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    
+    
+}
+#conteiner{
+
+    max-width: 700px;
+    height: 450px;       
+    box-sizing: border-box;    
+  
+    
+    
+}
+#conText{
+    width: 55%;
+    height: 450px;
+    float:left;
+    background-image: url(../patters/images/bg-pattern-desktop.svg), linear-gradient(hsl(0, 0%, 100%, 0.90), hsl(0, 100%, 98%, 0.9));
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+     }
+#text{
+    margin:70px;
+    margin-top: 0px;
+    font-family:'Josefin Sans';
+    font-size: 16px;
+    letter-spacing: 1.2;
+    
+
+}
+#icon{
+    width: 90px;
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+h1{
+    
+    font-size: 45px;
+}
+p{
+    font-size: 12px;
+}
+#inp{
+    border-radius: 15px;
+    border-color: black;
+    border-width: 1px;
+    width: 230px;
+    height: 20px;
+    float: left;
+    margin-top: 20px;
+    
+    
+}
+
+#arrow{
+    width: 40px;
+    height: 25px;
+    background-image: linear-gradient(hsl(0, 80%, 86%), hsl(0, 74%, 74%)); 
+    border-width: 1px;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    border-radius: 12px;    
+    margin-left: -35px;
+    margin-top: 20px;
+    float: left;
+}
+#icon2{
+    margin-top: 25px;
+    margin-left: -24px;
+    width: 9px;
+    float: left;
+}
+#photo{
+    width:45%;
+    height: 450px;
+    background-image: url(../patters/images/hero-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+}
