@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
 body{
     height: 97vh;
     background-color: papayawhip;
@@ -7,12 +8,12 @@ body{
     align-items:center;    
 }
 #conteiner{
-    max-width: 700px;
+    max-width: 800px;
     height: 450px;       
     box-sizing: border-box;
 }
 #conText{
-    width: 55%;
+    width: 60%;
     height: 450px;
     float:left;
     background-image: url(../patters/images/bg-pattern-desktop.svg), linear-gradient(hsl(0, 0%, 100%, 0.90), hsl(0, 100%, 98%, 0.9));
@@ -22,34 +23,38 @@ body{
 #text{
     margin:70px;
     margin-top: 0px;
-    font-family:'Josefin Sans';
+    font-family: 'Josefin Sans', sans-serif;
     font-size: 16px;
-    letter-spacing: 1.2;
+    letter-spacing: 1.3;
 }
 #icon{
     width: 90px;
-    margin-top: 20px;
-    margin-bottom: 35px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+span{
+    font-weight: normal;
 }
 h1{
-    font-size: 45px;
+    font-size: 55px;
 }
 p{
-    font-size: 12px;
+    font-size: 16px;
+    margin-top: -25px;
+    color: hsl(0, 36%, 70%);
 }
 
 #submit{
-    width: 50px;
-    height: 35px;
-    background-image: linear-gradient(hsl(0, 80%, 86%), hsl(0, 74%, 74%));     
-    background-position: center;
-    background-repeat: no-repeat;
-    text-align: center;
-    border-color: hsl(0, 80%, 86%);
+    width: 60px;
+    height: 36px;
+    background-image: linear-gradient(135deg,hsl(0, 80%, 86%),hsl(0, 74%, 74%));   
+    border:transparent;
     border-radius: 20px;  
     margin-left: -45px;
-    margin-top: 20px;
+    margin-top: 10px;
     float: left;     
+    font-size: 20px;    
+    color: white;
 }
 #icon2{
     margin-top: 25px;
@@ -58,7 +63,7 @@ p{
     float: left;
 }
 #photo{
-    width:45%;
+    width:40%;
     height: 450px;
     background-image: url(../patters/images/hero-desktop.jpg);
     background-repeat: no-repeat;
@@ -69,20 +74,20 @@ p{
     border-radius: 15px;
     border-color: black;
     border-width: 1px;
-    width: 230px;
+    width: 310px;
     height: 30px;
     float: left;
-    margin-top: 20px;    
+    margin-top: 10px;    
 }
 .erro{
 
     border-radius: 15px;
     border-color: red;
     border-width: 2px;
-    width: 230px;
+    width: 310px;
     height: 30px;
     float: left;
-    margin-top: 20px;   
+    margin-top: 10px;   
       
 }
 

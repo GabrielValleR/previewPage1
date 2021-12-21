@@ -1,3 +1,4 @@
+//função para retirar evento padrão e verificar erro 
 function erro(){
     var form = document.querySelector("form");   
 
@@ -16,17 +17,17 @@ function erro(){
      })   
           
 }
-
+//retirando style de erro
 function emailStyle(){
-     let emailStyle = document.getElementById("a");
+     let emailStyle = document.getElementById("email");
      emailStyle.setAttribute("class","email");
 }
 
 //Inicialização de Eventos
 function addEvents(){
      erro();
-     document.getElementById("a").setAttribute("class","email");
-     document.getElementById("a").addEventListener("click",emailStyle);
+     document.getElementById("email").setAttribute("class","email");
+     document.getElementById("email").addEventListener("click",emailStyle);
 }
 
 window.addEventListener("load",addEvents);
