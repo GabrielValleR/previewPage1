@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
 body{
+    width: 100%;
     height: 97vh;
     background-color: papayawhip;
     background-image: linear-gradient(hsl(0, 80%, 86%), hsl(0, 74%, 74%)); 
@@ -8,35 +9,49 @@ body{
     align-items:center;    
 }
 #conteiner{
-    max-width: 800px;
-    height: 450px;       
+    max-width: 890px;
+    height: 500px;       
     box-sizing: border-box;
 }
 #conText{
     width: 60%;
-    height: 450px;
+    height: 500px;
     float:left;
     background-image: url(../patters/images/bg-pattern-desktop.svg), linear-gradient(hsl(0, 0%, 100%, 0.90), hsl(0, 100%, 98%, 0.9));
     background-repeat: no-repeat;
     background-size: cover;
-     }
+}
+#logo{
+    width:100%;
+    height: 100px;   
+}
+#icon{
+    width: 90px;
+    margin-left:100px;
+    margin-top: 50px;        
+}
 #text{
-    margin:70px;
-    margin-top: 0px;
+    margin-left:100px;
+    margin-right:100px;
+    
     font-family: 'Josefin Sans', sans-serif;
     font-size: 16px;
     letter-spacing: 1.3;
 }
-#icon{
-    width: 90px;
-    margin-top: 40px;
-    margin-bottom: 10px;
+#photo{
+    width:40%;
+    height: 500px;
+    background-image: url(../patters/images/hero-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
 }
+
 span{
     font-weight: normal;
 }
 h1{
-    font-size: 55px;
+    font-size: 45px;
 }
 p{
     font-size: 16px;
@@ -56,20 +71,7 @@ p{
     font-size: 20px;    
     color: white;
 }
-#icon2{
-    margin-top: 25px;
-    margin-left: -24px;
-    width: 9px;
-    float: left;
-}
-#photo{
-    width:40%;
-    height: 450px;
-    background-image: url(../patters/images/hero-desktop.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    float: left;
-}
+
 .email{
     border-radius: 15px;
     border-color: black;
@@ -80,14 +82,91 @@ p{
     margin-top: 10px;    
 }
 .erro{
-
     border-radius: 15px;
     border-color: red;
     border-width: 2px;
     width: 310px;
     height: 30px;
     float: left;
-    margin-top: 10px;   
-      
+    margin-top: 10px; 
 }
-
+@media screen and (max-width:790px){
+    body{
+        width: 100%;
+        height: 100%;     
+        margin: auto;   
+    }    
+    #conteiner{
+       width: 300px; 
+       height: 100%;             
+    }
+    #conText{
+        width: 100%;  
+        height: 700px;            
+        background-image: url(../patters/images/bg-pattern-desktop.svg), linear-gradient(hsl(0, 0%, 100%, 0.90), hsl(0, 100%, 98%, 0.9));
+        
+        }
+        #logo{
+            width:100%;
+            height: 50px; 
+            margin-bottom: 280px;  
+        }
+        #icon{
+            width: 100px;
+            margin-left:25px;
+            margin-top: 25px;        
+        }
+        #photo{
+            width:100%;
+            height: 200px;
+            background-image: url(../patters/images/hero-mobile.jpg);
+            clear: both;  
+            margin-top: -620px;
+                                 
+        }
+        #text{            
+            width: 100%;
+            height: 300px;
+            margin: 0;
+            text-align: center;
+        }
+        p{
+            margin-top: 20px;
+        }   
+        form{
+            width: 100%;
+            height: 60px;
+            display: flex;
+            
+            justify-content: center;
+        }     
+       
+        .email{
+            border-radius: 15px;
+            border-color: rgba(0, 0, 0, 0.548);
+            border-width: 2px;
+            width: 70%;
+            
+               
+        }
+        .erro{
+            border-radius: 15px;
+            border-color: red;
+            border-width: 2px;
+            width: 70%;           
+             
+        }
+        #submit{
+            width: 50px;
+            height: 36px;
+            background-image: linear-gradient(135deg,hsl(0, 80%, 86%),hsl(0, 74%, 74%));   
+            border:transparent;
+            border-radius: 20px;  
+            margin-left: -35px;
+            margin-top: 10px;
+            
+            font-size: 20px;    
+            color: white;
+        }
+        
+}
